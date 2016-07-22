@@ -1,0 +1,27 @@
+{
+  "name": "serverapp",
+  "version": "1.0.0",
+  "description": "A spike examining how to host a groupme bot on a localhost server",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel --presets es2015 js/index.js -o build/index.bundle.js",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chris-Draper/Eva-bot/tree/master/ServerApp"
+  },
+  "keywords": [
+    "groupme",
+    "bot",
+    "npm",
+    "localhost"
+  ],
+  "author": "Chris Draper",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.10.4",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}

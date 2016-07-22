@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- load compiled js file -->
+        <script src="build/index.bundle.js"></script>
+    </head>
+    <body>
+        <h3>Type what you want Eva to say!</h3>
+        <textarea id="commentText" rows="4" cols="50">Type message here...</textarea>
+        <h3>If you want Eva to also post an image, copy and paste the link below.</h3>
+        <textarea id="imageLink" rows="4" cols="50">Paste image link here...</textarea>
+        <br>
+        <input type="button" value="Submit Comment" onclick="httpPostComment();">
+        <input type="button" value="Submit Image" onclick="httpPostImage();">
+    </body>
+</html>
